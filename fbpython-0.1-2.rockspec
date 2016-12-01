@@ -32,7 +32,7 @@ dependencies = {
 build = {
     type = 'command',
     build_command = [[
-        git clone https://github.com/facebook/thpp/
+        git clone https://github.com/CambrianTech/thpp/
         cd thpp/thpp; THPP_NOFB=1 ./build.sh; cd ../..
 
         cd fblualib/python
